@@ -47,3 +47,17 @@ elif(h==0.9):
         print("Might not be rain")
 else:
     print("Can't be rain")
+#--------------
+import time
+timestamp = (time.strftime('%H:%M:%S'))
+print(timestamp)
+timestamp1 = int(time.strftime('%H'))
+print('hour',timestamp1)
+if(timestamp1>6 and timestamp1<12):
+    print("Good morning sir")
+elif(timestamp1>12 and timestamp1<17):
+    print("Good afternoon sir")
+elif(timestamp1>17 and timestamp1<21):
+    print("Good Evening")
+else:
+    print("Good night")
