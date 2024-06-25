@@ -1,5 +1,6 @@
 # type casting in python
 #explict type casting
+#-----------------
 a = "2"
 b = "4"
 print(int(a)+int(b))
