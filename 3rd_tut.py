@@ -1,4 +1,5 @@
 # Variables in pythons
+#--------------
 a = 7
 print(a)
 b = "Barsat"
