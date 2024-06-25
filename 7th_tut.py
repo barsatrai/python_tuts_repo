@@ -1,25 +1,25 @@
 # Strings in python
+name = 'Barsat'
+surname = 'Rai'
+college = 'HCOE'
+print("Hello, "+name+surname,'school:',college)
+string = '''
+hello, guys im learning python program'''
+print(string)
+print(name[3],len(string),len(college))
+print(string[7])
 
-# name = 'Barsat'
-# surname = 'Rai'
-# college = 'HCOE'
-# print("Hello, "+name+surname,'school:',college)
-# string = '''
-# hello, guys im learning python program'''
-# print(string)
-# print(name[3],len(string),len(college))
-# print(string[7])
-
-# #string operations
-# ## slicing
-# names = 'barsat,suvam,Anya,Kennedy'
-# print(name[0:6],len(names))
-# name = "python"
-# print("the total length of python is:",len(name),'okay?')
-# print(name[1:-2])  #[start:end]
-# print(name[:-2])
-# print(name[-2])
-# print(name[-4:-2])
+#string operations
+## slicing
+names = 'barsat,suvam,Anya,Kennedy'
+print(name[0:6],len(names))
+name = "python"
+print("the total length of python is:",len(name),'okay?')
+print(name[1:-2])  #[start:end]
+print(name[:-2])
+print(name[-2])
+print(name[-4:-2])
+# n
 
 #String methods
 #---strings are immutable
