@@ -12,6 +12,7 @@ def name(*name):
     print("hello",name[0],name[1])
 name("barsat", "hate")
 
+#------------------
 def average(*num):
     sum = 0
     for i in num:
